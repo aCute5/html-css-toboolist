@@ -1,27 +1,54 @@
+body{
+    font-family: sans-serif;
+}
 h1{
     display: inline;
     vertical-align: middle;
 }
 .logo{
-    vertical-align: middle;
+         vertical-align: middle;
 }
 .container{
-    background-color: rgb(246, 248, 249);
-    box-sizing: border-box ;
+            background-color: rgb(246, 248, 249);
+            box-sizing: border-box ;
+            padding-top: 30px;
+            padding-bottom: 20px;
     
     
 }
 .containerlist{
-    background-color: white;
-    max-width: 900px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 30px;
+                background-color: white;
+                max-width: 900px;
+                margin-left: auto;
+                margin-right: auto;
+                border-top: 100px;
+                padding-top: 4px;
 }
 .bluebotton{
-    color: white;
-    background-color:rgb(71, 173, 241)
-}
+            color: white;
+            background-color:rgb(71, 173, 241);
+            border-radius: 5px;
+            font-size: 15px;
+            padding-top: 5px;
+            padding-left: 5px;
+            padding-right: 5px;
+            padding-bottom: 5px;      
+   }
 hr{
     color: rgb(246, 248,249);
+}
+ul {
+    list-style: none; 
+    
+}
+li {
+    padding-left: 16px;
+}
+.list1::before {
+            content: "🡇"; 
+            padding-right: 8px; 
+}
+.greenli::before {
+        content: "✔";
+        color: rgb(90, 199, 90);
 }
