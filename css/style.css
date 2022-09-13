@@ -68,7 +68,8 @@ li {
                 content: "✔";
                 color: rgb(90, 199, 90);
                 display: inline;
-                list-style: circle;
+                
+                
                     
 }
 .redli::before{
