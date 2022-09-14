@@ -1,5 +1,5 @@
 body{
-    font-family: sans-serif;
+    font-family: sans-serif
 }
 h1{
     display: inline;
@@ -13,6 +13,7 @@ h1{
             box-sizing: border-box ;
             padding-top: 30px;
             padding-bottom: 20px;
+            border-radius: 12px;
     
     
 }
@@ -36,6 +37,17 @@ h1{
             padding-bottom: 5px;
             display: inline;     
    }
+   .editorialbtn{
+                color: white;
+                background-color:rgb(71, 173, 241);
+                border-radius: 8px;
+                font-size: 11px;
+                padding-top: 5px;
+                padding-left: 5px;
+                padding-right: 5px;
+                padding-bottom: 5px;
+                display: inline;     
+}   
 .sectionbotton{
                 color: rgb(173, 165, 165);
                 background-color:rgb(255, 255, 255);
@@ -56,18 +68,29 @@ ul {
     list-style: none;
      font-size: 18px;
 }
+.listmain{
+        padding: 40px;
+}
 li {
-    padding-left: 16px;
+    padding: 1px;
     margin-bottom: 12px;
     
 }
 .list1::before {
                 content: "🡇"; 
 }
+
 .greenli::before{
                 content: "✔";
                 color: rgb(90, 199, 90);
                 display: inline;
+                color: green;
+                border: 2px solid green;
+                border-radius: 10em;
+                width: 1,5em;
+                height: 1,5em;
+                text-align: center;
+                vertical-align: middle;
                 
                 
                     
@@ -76,7 +99,14 @@ li {
                 content: "✘";
                 color: rgb(212, 39, 26);
                 display: inline;
-                list-style: circle; 
+                list-style: circle;
+                color: rgb(230, 48, 16);
+                border: 2px solid rgb(219, 37, 31);
+                border-radius: 10em;
+                width: 1,5em;
+                height: 1,5em;
+                text-align: center;
+                vertical-align: middle; 
 }
 
 #purplebox{
